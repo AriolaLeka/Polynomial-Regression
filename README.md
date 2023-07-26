@@ -2,23 +2,23 @@
 
 This repository contains the implementation of polynomial regression using PyTorch. The goal of the project was to estimate a polynomial function from a dataset using linear regression. The dataset was generated with a known polynomial and Gaussian noise.
 
-# Project Overview
+## Project Overview
 
 polynomial fitting.py: Python script containing the code for data generation, visualization, and polynomial regression implementation.
 
-# Data Generation
+## Data Generation
 
 The data was generated following a known polynomial function with added Gaussian noise. The training dataset consists of 500 data points, while the validation dataset contains 500 data points.
 
-# Polynomial Regression
+## Polynomial Regression
 
 PyTorch is used to perform polynomial regression. The model was implemented using the torch.nn.Linear module with the bias flag set to True. Gradient descent is used to optimize the model parameters and found suitable hyperparameters (learning rate and number of iterations) to achieve low training and validation losses.
 
-# Results
+## Results
 
 The training and validation losses were plotted as a function of gradient descent iterations. It was also visualized the estimated polynomial function based on the trained model.
 
-# Bonus - Coefficient Evolution
+## Bonus - Coefficient Evolution
 
 As a bonus, the evolution of each coefficient of the polynomial was plotted as a function of gradient descent iterations.
 Certainly! Here's a section that describes how other people can run the code using the provided `.py` file:
